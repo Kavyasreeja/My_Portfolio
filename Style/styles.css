@@ -52,7 +52,7 @@ section {
 }
 
 .logo {
-    font-size: 7rem;
+    font-size: 3rem;
     font-family: 'Great Vibes', cursive;;
     color: black;
     font-weight: 700;
@@ -60,7 +60,7 @@ section {
 }
 
 .navbar a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 700;
@@ -87,7 +87,7 @@ section {
 }
 
 .home-content h3 {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -131,7 +131,7 @@ span {
 }
 
 .home-content p {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: left;
 }
 
@@ -139,12 +139,12 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
     background: transparent;
     border: .2rem solid var(--text-color);
-    border-radius: 60%;
-    font-size: 5rem;
+    border-radius: 30%;
+    font-size: 2.5rem;
     color: var(--text-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
@@ -241,8 +241,8 @@ span {
 
 .about-img img {
     /* Keep the styles you already have, like border-radius and width/height if they apply */
-    width: 60rem; 
-    height: 60rem; 
+    width: 45rem; 
+    height: 45rem; 
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
     /* border-radius: 50%;
@@ -252,7 +252,7 @@ span {
 
 .heading {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 3rem;
     margin-bottom: 4rem; 
 }
 .education-entries {
@@ -273,11 +273,11 @@ span {
     margin-bottom: 6rem;
 }
 .university-entry h3 {
-    font-size: 4.4em;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 .university-entry p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     
 }
@@ -285,15 +285,15 @@ span {
     list-style-type: none;
 }
 .university-entry ul li{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .institute-entry h3 {
-    font-size: 4.4em;
+    font-size: 2.2rem;
     font-weight: bold;
 
 }
 .institute-entry p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     
 }
@@ -301,7 +301,7 @@ span {
     list-style-type: none;
 }
 .institute-entry ul li{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* ... existing CSS below ... */
@@ -315,12 +315,12 @@ span {
     padding: 5px;
     color: black;
     justify-content: center;
-    padding-top: 5rem;
-    margin-bottom: 0rem;
+    padding-top: 250px;
 }
+
 .heading {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     margin-bottom: 0rem; 
 }
 .work-entries {
@@ -340,17 +340,17 @@ span {
     height: 1px;
     background-color: gray; /* Or any color you want */
     margin: 20px 0; /* Spacing above and below the line */
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 .konek-entry h3 {
-    font-size: 4.4em;
+    font-size: 2.2rem;
     font-weight: bold;
     display: flex;
     align-items: center;
     margin: 0;
 }
 .konek-entry p {
-    font-size: 2em;
+    font-size: 1.5rem;
     font-weight: bold;
     
 }
@@ -358,15 +358,15 @@ span {
     list-style-type: none;
 }
 .konek-entry ul li{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .ub-entry h3 {
-    font-size: 4.4em;
+    font-size: 2.2em;
     font-weight: bold;
 
 }
 .ub-entry p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     
 }
@@ -374,16 +374,16 @@ span {
     list-style-type: none;
 }
 .ub-entry ul li{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .signify-entry h3 {
-    font-size: 4.4em;
+    font-size: 2.2em;
     font-weight: bold;
 
 }
 .signify-entry p {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     
 }
@@ -391,7 +391,7 @@ span {
     list-style-type: none;
 }
 .signify-entry ul li{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .konek-entry:hover
 {
@@ -406,8 +406,8 @@ span {
     color: rgb(232, 242, 35);
 }
 .konek-entry img {
-    width: 150px; /* Or your desired size */
-    height: 150px; /* Or your desired size */
+    width: 95px; /* Or your desired size */
+    height: 95px; /* Or your desired size */
     margin-right: 20px; /* Add some space between logo and text */
     border-radius: 50%; /* Optional: if you want a circular logo */
     object-fit: cover; 
@@ -415,8 +415,8 @@ span {
 }
 
 .ub-entry img{
-    width: 150px; /* Or your desired size */
-    height: 150px; /* Or your desired size */
+    width: 95px; /* Or your desired size */
+    height: 95px; /* Or your desired size */
     margin-right: 20px; /* Add some space between logo and text */
     border-radius: 50%; /* Optional: if you want a circular logo */
     object-fit: cover; 
@@ -424,8 +424,8 @@ span {
 }
   
 .signify-entry img{
-    width: 150px; /* Or your desired size */
-    height: 150px; /* Or your desired size */
+    width: 95px; /* Or your desired size */
+    height: 95px; /* Or your desired size */
     margin-right: 20px; /* Add some space between logo and text */
     border-radius: 50%; /* Optional: if you want a circular logo */
     object-fit: cover; 
@@ -748,7 +748,7 @@ span {
 /* <--project section final-->  */
 .portfolio {
     background: var(--snd-bg-color);
-    padding-top: 200px;
+    padding-top: -800px;
     max-width: -200px;
     
 }
@@ -804,10 +804,10 @@ span {
  
   .portfolio-box img {
     width: 100%;
-    height: 250px;
-    border-radius: 10px;
+    height: 150px;
+    border-radius: 5px;
     display: block;
-    size: 250px;
+    size: 150px;
     
   }
   
@@ -825,23 +825,23 @@ span {
   
   .portfolio-layer h4 {
     margin-bottom: 0.5em; 
-    font-size: x-large;
+    font-size:medium;
     font-weight: bolder;
   }
   
   .portfolio-layer p {
     margin-bottom: 0.5em; 
-    font-size: x-large;
+    font-size: small;
     text-align:center;
     
   }
   
   .portfolio-box .btn {
-    padding: 10px 15px; 
+    padding: 2px 3px; 
     background-color: #6200ea; 
     color: #ffffff; 
     text-decoration: none; 
-    border-radius: 5px; 
+    border-radius: 1px; 
     transition: background-color 0.3s ease; 
     margin-bottom: 0;
 
@@ -949,10 +949,10 @@ span {
     background: var(--snd-bg-color);
 }
 :target {
-    padding-top: 170px; /* Adjust this value so the title is visible with the fixed header */
+    padding-top: 140px; /* Adjust this value so the title is visible with the fixed header */
 }
 .Certifications h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .certification-container {
@@ -981,10 +981,10 @@ span {
   } */
 .certification-box img {
     width: 100%;
-    height: 250px;
-    border-radius: 10px;
+    height: 150px;
+    border-radius: 15px;
     display: block;
-    size: 250px;
+    size: 150px;
     
   }
   
@@ -1001,23 +1001,23 @@ span {
   
 .certification-layer h4 {
     margin-bottom: 0.5em; 
-    font-size: x-large;
+    font-size: medium;
     font-weight: bolder;
   }
   
 .certification-layer p {
     margin-bottom: 0.5em; 
-    font-size: x-large;
+    font-size: small;
     text-align:center;
     
   }
   
 .certification-box .btn {
-    padding: 10px 15px; 
+    padding: 2px 3px; 
     background-color: #6200ea; 
     color: #ffffff; 
     text-decoration: none; 
-    border-radius: 5px; 
+    border-radius: 1px; 
     transition: background-color 0.3s ease; 
   }
   
@@ -1039,35 +1039,36 @@ span {
     padding: 2rem; /* Adjust padding to match your design */
     background:white; /* Match this to Sahithi Chittem's footer background color */
     color: #000; /* Adjust the text color if necessary */
-    text-align: center; /* Center align the text */
+    text-align: center;
+    position: relative; /* Center align the text */
 }
 
 .footer h1 {
     margin-top: 0;
-    font-size: 5rem; /* Adjust the font size as necessary */
+    font-size: 2.5rem; /* Adjust the font size as necessary */
 }
 
 .footer p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     font-weight: bold;
-    line-height: 1.5; /* Adjust line height for better readability */
-    margin: 0.5rem 0; /* Space out paragraphs */
+    line-height: 0.5, 0rem; /* Adjust line height for better readability */
+    margin: 0.5rem; /* Space out paragraphs */
 }
 
-.footer-iconTop {
-    margin-top: 1rem; /* Add space between the text and the icon */
-}
+/* .footer-iconTop {
+    margin-top: 1rem; 
+}  */
 
 .footer-iconTop a {
     background: var(--main-color); /* Use your main color */
     color: blueviolet; /* Adjust icon color if necessary */
-    padding: 0.8rem; /* Adjust padding to match your design */
+    position:absolute;
+    bottom: 1rem;
+    right: 1rem;
     border-radius: 50%; /* Makes the icon background circular */
     box-shadow: 0 0 1rem var(--main-color);
-    margin-left: 175rem;
-    padding: 2rem 2rem 2 rem;
-    font-size: 5rem; /* Add shadow to match Sahithi Chittem's design */
+    font-size: 2.5rem; /* Add shadow to match Sahithi Chittem's design */
 }
 
 /* Remove any additional specific styling for .footer pre{} if it exists */
