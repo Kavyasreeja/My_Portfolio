@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kavya's Portfolio</title>
+
+        <!--  FONT-AWeSOME  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js" integrity="sha512-m0RQU4SBx0p/bLwRiI4fJBGRafVLZ4s86wRe1+OAx5EXbcWiS/X1jvYdJQRD8jOoIVl+WTyVeMawUWVCh1O8+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+        <!--  MAIN CSS  -->
+        <link rel="stylesheet" href="Style/styles.css">
+    </head>
+    <body>
+        <!--  header design  -->
+        <header class="header">
+            <a href="#" class="logo">Kavya Sreeja Naidu Motupalli</a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">Education</a>
+                <a href="#about-work-experience">Work Experience</a>
+                <a href="#portfolio">Projects</a>
+                <a href="#Certifications">Certifications</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </header>
+
+        <!--  home section design  -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello all</h3>
+                <p>I am a Computer Science Grad Student from University at Buffalo (December 2023), with solid foundation in software development, performance optimization, database management, and end-to-end project execution. Leveraging expertise in multiple programming languages and frameworks to build responsive and efficient applications. Eager to contribute to innovative software solutions and drive growth.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/kavyasreejanaidu/"><i class="fa-brands fa-linkedin-in" style="color: blue;"></i></a>
+                    <a href="mailto:kavyasreeja9@gmail.com"><i class="fa-regular fa-envelope" style="color: red;"></i></a>
+                </div>
+            </div>
+            <div id="lottie-animation"></div>
+            <script>
+                // Initialize Lottie and load the animation
+                var animation = lottie.loadAnimation({
+                    container: document.getElementById('lottie-animation'), // the container that will contain the animation
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'img/laptop.json' // the path to the animation json
+                });
+            </script>
+
+            <!-- <div class="home-img">
+                <img src="img\woman_coding.png" alt="">
+            </div> -->
+        </section>
+
+        <!--  about section design  -->
+        <!-- <section class="about" id="about">
+            <div class="about-img">
+                <img src="img\girl on graduation-rafiki.png" alt="">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">Education<span></span></h2>
+                <h3>University at Buffalo</h3>
+                <p>Master's in Computer Science and Engineering</p>
+                <p>August 2022 - December 2023</p>
+                <ul>Course Work:
+                    <li>
+                        Analysis of Algorithms, Data Modelling and Query language, Data Intensive Computing, Modern Networking Concepts, Introduction to Machine Learning, Introduction to Pattern Recognition, Deep Learning, Blockchain, Computing Education
+                    </li></ul>
+            </div>
+            <hr class="education-separator">
+            <div class="about-content">
+                <h3>Gandhi Institute of Technology and Management</h3>
+                <p>Bachelor of Engineering in Computer Science</p>
+                <p>August 2020 - September 2020</p>
+            </div>
+        </section> -->
+        <!-- ... existing HTML above ... -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img\girl on graduation-rafiki.png" alt="">
+            </div>
+            <div class="education-entries">
+                <div class="university-entry">
+                    <h2 class = "heading">Education</h2>
+                    <h3>University at Buffalo</h3>
+                    <!-- University details here -->
+                    <p>Master's in Computer Science and Engineering</p>
+                    <p>August 2022 - December 2023</p>
+                    <ul>
+                    <li>
+                        Course Work:
+                        Analysis of Algorithms, Data Modelling and Query language, Data Intensive Computing, Modern Networking Concepts, Introduction to Machine Learning, Introduction to Pattern Recognition, Deep Learning, Blockchain, Computing Education
+                    </li></ul>
+                </div>
+                <hr class="education-separator">
+                <div class="institute-entry">
+                    <h3>Gandhi Institute of Technology and Management</h3>
+                    <!-- Institute details here -->
+                    <p>Bachelor of Engineering in Computer Science</p>
+                    <p>August 2020 - September 2020</p>
+                </div>
+            </div>
+        </section>
+<!-- ... existing HTML below ... -->
+
+        <!--  services section design  -->
+        <section class="about-work-experience" id="about-work-experience">
+
+            <div class="work-entries">
+                <h2 class = "heading">Work Experience</h2>
+                <div class="konek-entry">    
+                    <img src="img\konek.png"><h3>Software Engineer Intern</h3>
+                    <!-- University details here -->
+                    <p>Konek-Pay By Bank</p>
+                    <p>January 2023 - December 2023</p>
+                    <ul>
+                    <li>
+                        Tech Stack:
+                        Analysis of Algorithms, Data Modelling and Query language, Data Intensive Computing, Modern Networking Concepts, Introduction to Machine Learning, Introduction to Pattern Recognition, Deep Learning, Blockchain, Computing Education
+                    </li></ul>
+                </div>
+                <hr class="education-separator">
+                <div class="ub-entry">
+                    <img src="img\ub.jpg"><h3>Graduate Teaching Assistant</h3>
+                    <!-- Institute details here -->
+                    <p>University at Buffalo</p>
+                    <p>August 2022 - May 2023</p>
+                    <ul>
+                        <li>
+                            Tech Stack:
+                            Analysis of Algorithms, Data Modelling and Query language, Data Intensive Computing, Modern Networking Concepts, Introduction to Machine Learning, Introduction to Pattern Recognition, Deep Learning, Blockchain, Computing Education
+                        </li></ul>
+                </div>
+                <hr class="education-separator">
+                <div class="signify-entry">
+                    <img src="img\signify_technology_logo.jpg"><h3>Software Devloper</h3>
+                    <!-- Institute details here -->
+                    <p>Signify Philips</p>
+                    <p>August 2020 - June 2022</p>
+                    <ul>
+                        <li>
+                            Tech Stack:
+                            Analysis of Algorithms, Data Modelling and Query language, Data Intensive Computing, Modern Networking Concepts, Introduction to Machine Learning, Introduction to Pattern Recognition, Deep Learning, Blockchain, Computing Education
+                        </li></ul>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="services" id="services">
+            <h2 class="heading">Work Experience</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <div class = 'konek'>
+                    <img class="konek-logo" src="img\konek.png" alt="">
+                    
+                    <h3>KONEK - Pay By Bank</h3>
+                    <p>Software Enginner Intern</p>
+                    <p>January 2023 - December 2023</p>
+                </div>
+                </div>
+
+                <div class="services-box">
+                    
+                    <div  class="ub">
+                    <img class="buffalo-logo" src="img\ub.jpg" alt="">
+                    <h3>University at Buffalo</h3>
+                    <p>Graduate Teaching Assitant</p>
+                    <p>August 2022 - May 2023</p>
+                </div>
+
+
+                </div>
+
+                <div class="services-box">
+                    
+                    <div class = "signify">
+                    <img class="signify-logo" src="img\signify_technology_logo.jpg" alt="">
+                    <h3>Signify Philipsr</h3>
+                    <p>Software Developer</p>
+                    <p>August 2020 - June 2022</p>
+                </div>
+                    
+                </div>
+                </div>
+                <div class = "skills-container">
+                <div class="skills-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Skills</h3>
+                    <ul>
+                        
+                        <li>Programming and Scripting Languages: Python, SQL, Java, C++, C.</li>  
+                        <li>Front-end Development: Flask, NodeJS, Spring Boot, HTML, CSS, Bootstrap, JavaScript, React.js.</li> 
+                        <li>Database and developer tools: My SQL, MongoDB, PostgreSQL.</li>
+                        <li>Tools: Git, GitHub, Kafka, Tableau, AWS.</li>
+                        <li>Others: Machine Learning, Data Analytics, Performance optimization, Project management, Leadership and Team Management.</li>
+                    
+                    </ul>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+        </section> -->
+
+        <!--  services section design  -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Projects</h2>
+            <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img\student.jpg" alt="Event-Ease: Student Club Management System">
+                <div class="portfolio-layer">
+                    <h4>Event-Ease: Student Club Management System</h4>
+                    <p>Spearheaded the development of a Student Club event management database, cutting coordination time by 30% through robust data modeling, normalization techniques, and JavaScript improvements for organized PostgreSQL management in a web app.</p>
+                    <a href="https://github.com/Kavyasreeja/Student_club_management_system" class="btn">View Github Repo</a>
+                </div>
+                </div>
+            
+
+            <!-- <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="img\student.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Event-Ease: Student Club Management System</h4>
+                        <p>Spearheaded the development of a Student Club event management database, cutting coordination time by 30% through robust data modeling, normalization techniques, and JavaScript improvements for organized PostgreSQL management in a web app.</p>
+                        <div class="navigate">
+                            <a href="https://github.com/Kavyasreeja/Student_club_management_system"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                </div> -->
+
+                <div class="portfolio-box">
+                    <img src="img\travel.jpg" alt="Travel Guard: Insurance Claim Prediction">
+                    <div class="portfolio-layer">
+                        <h4>Travel Guard: Insurance Claim Prediction</h4>
+                        <p>Oversaw a data-driven project to predict travel insurance claims, accomplishing 85% prediction accuracy and showcasing the efficacy of the Random Forest model through an interactive HTML/CSS and Flask web app.</p>
+                        <a href="https://github.com/Kavyasreeja/Travel_isnurance_Prediction" class="btn">View Github Repo</a>
+                        
+                    </div>
+                </div>
+                
+                <div class="portfolio-box">
+                    <img src="img\movie.png" alt="Reel Sage: Intelligent Movie Recommendation System">
+                    <div class="portfolio-layer">
+                        <h4>Reel Sage: Intelligent Movie Recommendation System</h4> 
+                        <p>Developed and launched a sophisticated movie recommendation system, integrating TMDb and Rotten Tomatoes, that enhanced accuracy by 30% through SVD and NCF methods using Scikit-learn and PyTorch. This innovation cut movie selection time by 8 minutes and employed Tableau for insightful analysis of rating trends and performance.</p>
+                        <a href="https://github.com/Kavyasreeja/365_Entertainment" class="btn">View Github Repo</a>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img\blockchain.jpg" alt="Fake News Detection Using Block-chain">
+                    <div class="portfolio-layer">
+                        <h4>Fake News Detection Using Block-chain</h4>
+                        <p>Developed a blockchain-based application for fake news detection, achieving 99% data integrity and reducing verification costs by 50% through decentralized, peer-to-peer network validation. Enhanced system reliability and eliminated single points of failure, securing information across multiple nodes with public-key cryptography.</p>
+                        <a href="https://github.com/Kavyasreeja/Tracking-Fake-news-Using-Block-chain" class="btn">View Github Repo</a>
+                        
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img\chat-bot.png" alt="Chat-Bot Application">
+                    <div class="portfolio-layer">
+                        <h4>Chat-Bot Application</h4>
+                        <p>Accomplished client and server components of a text chat application using socket programming in C. The application utilized TCP connections to allow multiple users to connect to the chat server and communicate with each other in real time; the application was designed to be scalable and efficient, and it was deployed on a local network.</p>
+                        <a href="https://github.com/Kavyasreeja/Chat_Bot_Application" class="btn">View Github Repo</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="img\facemask.jpeg" alt="Face Mask Detection">
+                    <div class="portfolio-layer">
+                        <h4>Face Mask Detection</h4>
+                        <p>Optimized and implemented YOLO v5, v8, and Faster R-CNN models, incorporating adaptive optimization techniques to enhance real-time face mask detection. This approach led to a 20% increase in detection accuracy and a 30% improvement in processing speed, enabling more effective and efficient public health safety measures.</p>
+                        <a href="https://github.com/Kavyasreeja/Face_mask_detection" class="btn">View Github Repo</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--  contact section design  -->
+        <section class="Certifications" id="Certifications">
+            <h2 class="heading">Certifications</h2>
+            <div class="certification-container">
+                <div class = "certification-box">
+                    <img src="img\tableau.jpg" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Data visualization</h4>
+                        <p>Validated advanced competencies in leveraging tools like Tableau and Power BI to interpret and communicate complex data insights in a user-friendly manner.</p>
+                        <a href="https://coursera.org/share/7cf967fa746f0cbe8cb0c47984416708" class="btn">View Credential</a>
+                    </div>
+                </div>
+                <div class = "certification-box">
+                    <img src="img\web_development.jpg" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Introduction to Web Development </h4>
+                        <p>Cultivated a comprehensive understanding of full-stack development processes, including both front-end and back-end best practices.</p>
+                        <a href="https://coursera.org/share/4e3278c5f77ffe28423fe8c8a8109aca" class="btn">View Credential</a>
+                    </div>
+                </div>
+                
+                <div class = "certification-box">
+                    <img src="img\deloitte.jpg" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Deloitte Technology Consulting Virtual Internship</h4>
+                        <p>Gained invaluable exposure to the intersection of technology and business, honing skills in strategic planning and digital solution implementation.</p>
+                        <a href="https://drive.google.com/file/d/1pmLnfLOSiDmY6VEXYefZ7urwPYhNhXks/view?usp=sharing" class="btn">View Credential</a>
+                    </div>
+                </div>
+                <div class = "certification-box">
+                    <img src="img\software development.jpg" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Software Development Process and Methodolgies </h4>
+                        <p>Enhanced adaptability across various software development frameworks, including Agile, Scrum, and Waterfall, to optimize product outcomes.</p>
+                        <a href="https://coursera.org/share/22b210c3d483a5ecbc3e3a853b5f54ad" class="btn">View Credential</a>
+                    </div>
+                </div>
+                <div class = "certification-box">
+                    <img src="img\database.png" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Data Base Management Essentials </h4>
+                        <p>Strengthened abilities in database design, SQL querying, and data normalization, ensuring robust and scalable data solutions.</p>
+                        <a href="https://coursera.org/share/37c100d345bdfe907b04411ae18536b0" class="btn">View Credential</a>
+                    </div>
+                </div>
+                <div class = "certification-box">
+                    <img src="img\aws.png" alt="Event-Ease: Student Club Management System">
+                    <div class="certification-layer">
+                        <h4>Cloud Fundamentals </h4>
+                        <p>Bolstered foundational cloud skills, focusing on infrastructure-as-a-service (IaaS) and platform-as-a-service (PaaS), crucial for modern IT environments.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/BY39HGWA86NK" class="btn">View Credential</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--  contact section design  -->
+        <footer class="footer" id="footer">
+            <div class="footer-text">
+                <h1>CONTACT ME <i class="fa-solid fa-phone" style="color: green;"></i></h1>
+                <p>THANK YOU FOR EXPLORING MY PORTFOLIO. IF YOU FIND MY WORK INTRIGUING AND WOULD LIKE TO CONNECT, FEEL FREE TO REACH OUT TO ME ON LINKEDIN OR SEND ME AN EMAIL AT kavyasre@buffalo.edu. I'M ALWAYS OPEN TO NEW OPPORTUNITIES, COLLABORATIONS, AND MEANINGFUL CONNECTIONS. LOOKING FORWARD TO HEARING FROM YOU!</p>
+                <p>+1 716-235-9696</p>
+                <p>kavyasre@buffalo.edu</p> 
+            <div class="footer-iconTop">
+                <a href="#home"><i class="fa-regular fa-hand-point-up"></i></a>
+            </div>
+            </div>
+        </footer>
+        
+
+        <!--  TYPED JS  -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!--  SCROLL REVEAL  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--  MAIN JS  -->
+        <script src="JS/main.js"></script>
+    </body>
+</html>
