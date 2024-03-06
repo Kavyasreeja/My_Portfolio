@@ -1103,28 +1103,28 @@ span {
 
 @media (max-width: 1200px) {
     html {
-        font-size: 55%;
+        font-size: 50%;
     }
 }
 
 @media (max-width: 991px) {
     .header {
-        padding: 2rem 3%;
+        padding: 1.5rem 3%;
     }
     
     section {
-        padding: 10rem 3%;
+        padding: 4rem 3%;
     }
 
     .about {
-        padding-bottom: 7rem;
+        padding-bottom: 4rem;
     }
     .about-work-experience {
-        padding-bottom: 7rem;
+        padding-bottom: 4rem;
     }
 
     .portfolio {
-        padding-bottom: 7rem;
+        padding-bottom: 4rem;
     }
 
     .Certifications {
@@ -1200,15 +1200,19 @@ span {
     .portfolio h2 {
         margin-bottom: 3rem;
     }
-
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+    .portfolio-container,
+    .certification-container {
+        flex-direction: column;
+        align-items: center;
     }
+    .portfolio-box,
+    .certification-box {
+        width: 90%; /* Adjust the width as needed */
+        margin: 1rem 0; /* Add some vertical margin */
+    }
+    
     .Certifications h2{
         margin-bottom: 3rem;
-    }
-    .certification-container{
-        grid-template-columns: repeat(2, 1fr);
     }
 
 }
@@ -1225,7 +1229,7 @@ span {
 
     .about-img img{
         width: 100vw;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 }
 
@@ -1236,5 +1240,6 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+        margin: 0.5rem 0;
     }
 }
